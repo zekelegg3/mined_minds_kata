@@ -1,10 +1,10 @@
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-p "here are the days: #{days}"
-p "here are the months: #{months}"
+puts "here are the days: #{days}"
+puts "here are the months: #{months}"
 
-p %q{
+puts %q{
 	There's something going on here.
 	With this weird quote 
 	We'll be able to type as much as we like.
