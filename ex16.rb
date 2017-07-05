@@ -7,7 +7,7 @@ puts "If you want to do that, hit RETURN."
 $stdin.gets
 
 puts "Opening the file..."
-target = open(filename, 'w')
+target = open(filename, 'w') #using w overwrites everything in the file 
 
 puts "Truncating the file. Goodbye!"
 target.truncate(0)
