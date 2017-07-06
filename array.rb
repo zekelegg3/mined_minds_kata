@@ -5,10 +5,15 @@ class Array_test < Minitest::Test
 	def test_1_means_1
 		assert_equal(1,1)
 	end
-	def test_array_returns_array
-		assert_equal(100,array.count)
+	#def test_array_returns_array
+	#	assert_equal(100,array.count)
+	#end
+	#def test_2_returns_2_in_array
+	#		assert_equal(2,array[1])
+	#end
+	def test_what_3_returns
+		p array
+		assert_equal("mined",array[2])
 	end
-	def test_2_returns_2_in_array
-			assert_equal(2,array[1])
-	end
+
 end
