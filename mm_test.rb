@@ -1,3 +1,6 @@
+def array
+	Array (1..100)
+end
 def mm_test(num)
 	if num % 15 == 0
 		"mined minds"
