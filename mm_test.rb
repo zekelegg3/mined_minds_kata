@@ -1,8 +1,12 @@
 def array()
  x = [*1..100]
  	x.each_with_index do |val, index| 
-		if val % 3 == 0
+		if val % 15 == 0 
+			x[index] = "mined minds"
+		elsif val % 3 == 0
 			x[index] = "mined"
+		elsif val % 5 == 0
+			x[index] = "minds"
 		end
 		#p "val #{val}"
 		#p "index #{index}"
@@ -20,3 +24,4 @@ def array()
 	#end
 end
 
+#create an empty array and use a counter to push the values into the fuction

@@ -15,5 +15,14 @@ class Array_test < Minitest::Test
 		p array
 		assert_equal("mined",array[2])
 	end
+	def test_6_returns_mined
+		assert_equal("mined", array[5])
+	end
+	def test_15_returns_mined_minds
+		assert_equal("mined minds", array[14])
+	end
+	def test_20_returns_minds
+		assert_equal("minds", array[19])
+	end
 
 end
