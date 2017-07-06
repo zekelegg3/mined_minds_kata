@@ -1,5 +1,5 @@
-def array
-	Array (1..100)
+def array()
+Array (1..100)
 end
 def mm_test(num)
 	if num % 15 == 0
@@ -12,3 +12,4 @@ def mm_test(num)
 		num
 	end
 end
+
