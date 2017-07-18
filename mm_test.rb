@@ -8,8 +8,8 @@ def array()
 		elsif val % 5 == 0
 			x[index] = "minds"
 		end
-		#p "val #{val}"
-		#p "index #{index}"
+		p "val #{val}"
+		p "index #{index}"
 	end
 
 	x
